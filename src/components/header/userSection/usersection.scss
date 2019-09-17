@@ -1,0 +1,30 @@
+.UserSection {
+    background-color: #080808;
+    padding: 10px;
+    margin: 10px;
+}
+.Avatar {
+    height: 45px !important;
+    width : 50px !important;
+}
+.UserName{
+    font-size: 20px;
+    align-content: center;
+    margin: 10px;
+}
+
+@media (max-width: 500px) {
+    .UserName{
+        font-size: 20px;
+        margin: 5px;
+    }
+    .Avatar {
+        height: 30px !important;
+        width : 30px !important;
+    }
+    .UserSection {
+        padding: 5px;
+        margin: 1px;
+    }
+    
+}
