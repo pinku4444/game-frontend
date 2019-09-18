@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './knob.scss';
 import { CircleSlider } from 'react-circle-slider';
 import { Grid } from '@material-ui/core';
+import Overview from './overview';
 
 class Knob extends Component {
     constructor(props) {
@@ -26,7 +27,7 @@ class Knob extends Component {
             <Grid container spacing={3}>
                 <Grid item xs={1} md={3}>
                 </Grid>
-                <Grid item xs={11} md={9}>
+                <Grid item xs={11} md={4}>
                     <CircleSlider
                         className="Slider"
                         value={value}
@@ -36,8 +37,12 @@ class Knob extends Component {
                         gradientColorFrom="#FF6666"
                         gradientColorTo="#FF6666"
                         tooltipColor="#FFFF00"
+                        onChange={this.handleChange}
                         circleColor="#228B22"
                     />
+                </Grid>
+                <Grid item xs={12} md={5}>
+                    <Overview score={this.state.value} />
                 </Grid>
             </Grid>
         );
