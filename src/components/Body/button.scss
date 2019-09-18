@@ -1,0 +1,92 @@
+.rollButtonDiv {
+   text-align: right;
+}
+.buttonBody button {
+    background-color:#1693E5 !important;
+ }
+.rollButton {
+    width : 80%;
+    padding: 12px !important;
+    margin: 18px !important;
+}
+.rollButton span {
+    font-weight: bold;
+}
+.reloadButton {
+    width: 20%;
+    margin: 18px !important;
+    height: 55px;
+    border: 1px solid white !important;
+    border-left: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 16px !important;
+}
+.reloadBetButton {
+    width: 14%;
+    margin: 18px !important;
+    height: 55px;
+    border: 1px solid white !important;
+    border-left: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 16px !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+.inputButton{
+    width : 60%;
+    border-color: white !important;
+    color: white !important;
+}
+.inputPayoutButton{
+    width : 60%;
+    border-color: white !important;
+    color: white !important;
+    margin-left: 16% !important;
+}
+.inputWinButton{
+    width : 60%;
+    border-color: white !important;
+    color: white !important;
+    margin-left: 20% !important;
+}
+.inputWinButton input {
+    color: white !important;
+    font-weight: bold;
+}
+.inputWinButton label {
+    color: white !important;
+}
+.inputPayoutButton input {
+    color: white !important;
+    font-weight: bold;
+}
+.inputPayoutButton label {
+    color: white !important;
+}
+.inputBetButton{
+    width : 40%;
+    border-color: white !important;
+    color: white !important;
+    margin-left: 8% !important;
+}
+.inputBetButton input {
+    color: white !important;
+    font-weight: bold;
+}
+
+.inputBetButton label {
+    color: white !important;
+}
+
+.inputButton input {
+    color: white !important;
+    font-weight: bold;
+}
+
+.inputButton label {
+    color: white !important;
+}
+fieldset {
+    border-color: white !important;
+}
