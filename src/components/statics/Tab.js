@@ -54,8 +54,8 @@ const Statics = () => {
 
 	return (
 		<Grid container>
-			<Grid item xs={12} md={2}></Grid>
-			<Grid item xs={12} md={8}>
+			<Grid item xs={12} md={1}></Grid>
+			<Grid item xs={12} md={10}>
 				<div className={classes.root}>
 					<AppBar position="static" className="AppBar">
 						<Tabs
@@ -87,7 +87,7 @@ const Statics = () => {
 					</SwipeableViews>
 				</div>
 			</Grid>
-			<Grid item xs={12} md={2}></Grid>
+			<Grid item xs={12} md={0}></Grid>
 		</Grid>
 
 	);

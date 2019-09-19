@@ -51,9 +51,21 @@ const LatestBets = (props) => {
                         <Table>
                             <TableHead>
                                 <TableRow>
-                                    <TableCell>Game</TableCell>
-                                    <TableCell>User</TableCell>
-                                    <TableCell>Profit</TableCell>
+                                    <TableCell>
+                                        <span className="profit-font White">
+                                            Game
+                                        </span>
+                                    </TableCell>
+                                    <TableCell>
+                                        <span className="profit-font White">
+                                            User
+                                        </span>
+                                    </TableCell>
+                                    <TableCell>
+                                        <span className="profit-font White">
+                                            Game
+                                        </span>
+                                    </TableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
