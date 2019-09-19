@@ -1,13 +1,21 @@
-import React from 'react';
-import Header from './components/header';
+import Knob from './components/knob';
+import Statics from './components/statics';
+import client from './apollo';
+import { ApolloProvider } from 'react-apollo'
+import ButtonComponent from './components/Body/ButtonComponent'
 import Footer from './components/footer';
 
 function App() {
 	return (
-		<div className = "App" >
-			<Header />
-			<Footer />
-		</div>
+		<ApolloProvider client={client}>
+			<div className="App" >
+				<Header />
+				<Knob />
+				<ButtonComponent />
+				<Statics />
+				<Footer />
+			</div>
+		</ApolloProvider>
 	);
 }
 
